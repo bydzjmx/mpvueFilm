@@ -1,17 +1,17 @@
 <template>
-  <div  class="listContainer">
-    <swiper indicator-dots indicator-color="pink" indicator-active-color="green">
+  <div>
+    <swiper class="swiper" indicator-dots indicator-color="pink" indicator-active-color="green">
       <swiper-item>
-        <img src="/static/images/detail/carousel/01.jpg">
+        <image src="/static/images/detail/carousel/04.png"/>
       </swiper-item>
       <swiper-item>
-        <img src="/static/images/detail/carousel/02.jpg">
+        <image src="/static/images/detail/carousel/02.jpg"/>
       </swiper-item>
       <swiper-item>
-        <img src="/static/images/detail/carousel/03.jpg">
+        <image src="/static/images/detail/carousel/03.jpg"/>
       </swiper-item>
       <swiper-item>
-        <img src="/static/images/detail/carousel/04.jpg">
+        <image src="/static/images/detail/carousel/01.jpg"/>
       </swiper-item>
     </swiper>
     <div>
@@ -38,12 +38,11 @@
 </script>
 
 <style>
-  .listContainer swiper{
-    width: 100%;
-    height: 400rpx;
+  .swiper{
+    height: 376rpx;
   }
-  .listContainer swiper item{
-    width: 100%;
+  image{
     height: 100%;
+    width: 100%;
   }
 </style>

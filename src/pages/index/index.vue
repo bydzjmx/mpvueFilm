@@ -5,7 +5,7 @@
     <button v-if="!isShow"
             open-type="getUserInfo"
             lang="zh_CN"
-            @getuserinfo="onGotUserInfo">获取用户信息
+            @getuserinfo="onGotUserInfo">点击登录
     </button>
     <div class="indexContainer"
          v-else>
@@ -15,7 +15,7 @@
            alt=""/>
       <div style="text-align: center;">{{ userInfo.nickName }}</div>
       <br/><br/>
-      <button @tap="toDetail" class="btn">硅谷周刊</button>
+      <button @tap="toDetail" class="btn">进入电影小助手</button>
     </div>
 
   </div>

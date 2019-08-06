@@ -13,7 +13,8 @@
 </template>
 
 <script>
-  const MOVIE_RUL = 'http://t.yushu.im/v2/movie/top250'
+  //暂取前100个数据
+  const MOVIE_RUL = 'http://t.yushu.im/v2/movie/top250?count=100'
   export default {
     name: 'movie',
     data(){
